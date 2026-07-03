@@ -63,6 +63,9 @@ print("count of 4:" , tuple1.count(4))
 a , b = 10 ,20
 
 print(a)
+
+a , b = b , a
+
 print(a , b)
 
 # SET
@@ -97,6 +100,6 @@ dict1 = {
 print(dict1["name"])
 print(dict1.get("Age"))
 
-dict1["name"] = "vivek"
+dict1["name"] = "Shrey"
 
 print(dict1)
