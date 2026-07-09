@@ -61,9 +61,8 @@ for i in range(1, rows + 1):
 
     if i == 1:
         print("*")
-        """
     elif i == rows:
-        print("*" + " " * (2 * rows - i))"""
+        print("*" + " " * (2 * i - 3)+"*")
     else:
         print("*" + " "*(2* i - 3) + "*")
 
