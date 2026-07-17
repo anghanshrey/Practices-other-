@@ -113,7 +113,7 @@ print("="*40)
 for s in students:
     if s["score"] > 90:
         grades = "A"
-    elif s["score"] > 80:
+    elif s["score"] > 80 and s["score"] < 89:
         grades = "B"
     else:
         grades = "C"
