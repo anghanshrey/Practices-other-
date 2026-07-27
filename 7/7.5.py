@@ -159,6 +159,7 @@ print("="*40)
 print("Q-8")
 print("="*40)
 
+"""
 array = [1, 42, 33, 50, 12]
 
 print("--- DEMONSTRATING sorted() ---")
@@ -170,7 +171,7 @@ print("\n Returned value: ",result)
 
 print("\n Original list_a after: ",array)
 
-print("\n\n--- DEMONSTRATING list.sorted() ---")
+print("\n\n--- DEMONSTRATING sort() ---")
 
 print("\n\n Original list_b before: ",array)
 
@@ -178,3 +179,4 @@ return_result = array.sort()
 print("\n Returned value: ",return_result)
 
 print("\n Original list_b after: ",array)
+"""
