@@ -108,14 +108,73 @@ print("="*40)
 print("Q-5")
 print("="*40)
 
+"""
 list_number = []
 print("The 1D array :")
-for i in range(1):
-    i = list(map(int, input("Enter 1D array Elements : ").split(" ")))
-    list_number.append(i)
 
-print("Original List : ",list_number)
+array = list(map(int, input("Enter 1D array Elements : ").split(" ")))
 
-asc_list_number = sorted(list(list_number))
+print("Original List : ",array)
 
-print("sorted Original List : ",asc_list_number)
+array.sort()
+
+print("Sorted Original List : ",array)
+"""
+
+print("="*40)
+print("Q-6")
+print("="*40)
+
+"""
+numbers = [
+    ("Raj" , 40),
+    ("Robinson" , 50),
+    ("Robinhood", 30),
+    ("Rohit", 60)
+]
+
+result = sorted(numbers , key = lambda x : x[1] )
+
+print("List in Sorted 2 Elements : ",result)
+"""
+
+print("="*40)
+print("Q-7")
+print("="*40)
+
+"""
+diction = [
+    {\n"name" : "Robin" , "Age": 20},
+    {\n"name" : "Robinson" , "Age": 21},
+    {\n"name" : "Robinhood" , "Age": 19},
+    {\n"name" : "Robinhood juinor" , "Age": 43}
+]
+
+result = sorted(diction , key = lambda x : x["Age"])
+
+print("Dictionaries  in Sorted 2 Elements : ", result)
+"""
+
+print("="*40)
+print("Q-8")
+print("="*40)
+
+array = [1, 42, 33, 50, 12]
+
+print("--- DEMONSTRATING sorted() ---")
+
+print("\n\n Original list_a before: ",array)
+
+result = sorted(array)
+print("\n Returned value: ",result)
+
+print("\n Original list_a after: ",array)
+
+print("\n\n--- DEMONSTRATING list.sorted() ---")
+
+print("\n\n Original list_b before: ",array)
+
+return_result = array.sort()
+print("\n Returned value: ",return_result)
+
+print("\n Original list_b after: ",array)
