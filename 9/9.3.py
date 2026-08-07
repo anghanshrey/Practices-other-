@@ -123,15 +123,77 @@ s.start()
 print(":-"*40)
 print("Q-6")
 print(":-"*40)
+"""
+class Student:
+    def __init__(self , name):
+        self.name = name
+        print(f"{self.name} Welcome.")
+
+    def display(self):
+        print("Hello , Student.")
+
+class child(Student):
+    def display(self):
+        super().display()
+        print("Hello , Child.")
+
+c1 = child("Shrey")
+
+print(type(c1))
+"""
 
 print(":-"*40)
 print("Q-7")
 print(":-"*40)
+"""
+class car:
+    def __init__(self , name):
+        self.name = name
+        print(f"{self.name} Welcome")
+
+    def display(self):
+        print("Hello car.")
+
+class bike(car):
+    def display(self):
+        super().display()
+        print("Hello , bike.")
+
+b1 = bike("pagani")
+
+print(dir(b1))
+"""
 
 print(":-"*40)
 print("Q-8")
 print(":-"*40)
+"""
+class car:
+    def __init__(self, name):
+        self.name = name
+
+
+c1 =  car("Alice")
+
+print(isinstance(c1 , car))
+print(isinstance(c1 , str))
+"""
 
 print(":-"*40)
 print("Q-9")
 print(":-"*40)
+
+"""
+class Calculator:
+    """This class performs basic arithmetic operations like addition."""
+
+    def add(self, a, b):
+        """Returns the sum of two numbers."""
+        return a +b
+
+print("--- Class Documentation ---")
+help(Calculator)
+
+print("\n--- Method Documentation --- ")
+help(Calculator.add)
+"""
