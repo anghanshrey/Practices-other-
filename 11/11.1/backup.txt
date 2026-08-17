@@ -1,0 +1,5 @@
+Line 1 : Python is easy to learn.
+Line 2: It has numerous libraries.
+Line 3: file handing is one of its features.
+LIne 4: Python supports multiple modes of file handing.
+This file was last modified by adding this sentence.
